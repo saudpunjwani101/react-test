@@ -1,0 +1,24 @@
+[
+  {
+    "id": "p001",
+    "name": "Classic T-Shirt",
+    "category": "Apparel",
+    "price": 19.99,
+    "stock": 120
+  },
+  {
+    "id": "p002",
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 89.5,
+    "stock": 45
+  },
+  { "id": "p003", "name": "Coffee Mug", "category": "Home", "price": 12.0 },
+  {
+    "id": "p004",
+    "name": "Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 129.99,
+    "stock": 0
+  }
+]
