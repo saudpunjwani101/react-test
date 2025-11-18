@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react' // Add this for React JSX support
 
 export default defineConfig({
   plugins: [
-    react(), // Handles React (add if not already implied by your setup)
+    process.env.VITEST && react(),
     !process.env.VITEST && reactRouter(), // Disable during Vitest
     tailwindcss(),
   ],
