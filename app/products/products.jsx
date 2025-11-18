@@ -14,7 +14,6 @@ export function Products() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Note: path is relative to the public folder
         const response = await fetch('../../products.json')
 
         if (!response.ok) {
@@ -24,9 +23,7 @@ export function Products() {
         const jsonData = await response.json()
         setProducts(jsonData)
       } catch (err) {
-        // setError(err.message)
-      } finally {
-        // setLoading(false)
+        // console.log(err)
       }
     }
 
